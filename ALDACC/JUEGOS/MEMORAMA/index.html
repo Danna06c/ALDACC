@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMORAMA</title>
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="/ALDACC2/ALDACC/IMG/ALDACC-removebg-preview.png" alt="Logo ALDACC">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Asignaturas</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+        </nav>
+        <a href="/ALDACC2/ALDACC/INTERFAZESTUDIANTE/perfil/index.html" class="btn"><i class="fa-solid fa-user"></i></a>
+    </header>
+  <h1 class="titulo">Memorama</h1>
+    <div class="Juego">
+        <section class="section1">
+            <table>
+                <tr>
+                    <td><button id="0" onclick="destapar(0)"></button></td>
+                    <td><button id="1" onclick="destapar(1)"></button></td>
+                    <td><button id="2" onclick="destapar(2)"></button></td>
+                    <td><button id="3" onclick="destapar(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="destapar(4)"></button></td>
+                    <td><button id="5" onclick="destapar(5)"></button></td>
+                    <td><button id="6" onclick="destapar(6)"></button></td>
+                    <td><button id="7" onclick="destapar(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="destapar(8)"></button></td>
+                    <td><button id="9" onclick="destapar(9)"></button></td>
+                    <td><button id="10" onclick="destapar(10)"></button></td>
+                    <td><button id="11" onclick="destapar(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="destapar(12)"></button></td>
+                    <td><button id="13" onclick="destapar(13)"></button></td>
+                    <td><button id="14" onclick="destapar(14)"></button></td>
+                    <td><button id="15" onclick="destapar(15)"></button></td>
+                </tr>
+            </table>
+           </section>
+           <section class="section2">
+            <h2 class="estadisticas uno" id="Aciertos">Aciertos: 0</h2>
+            <h2 class="estadisticas dos" id="t-restante">Tiempo: 30 Segundos</h2>
+            <h2 class="estadisticas tres" id="movimientos">Movimientos: 0</h2>
+           </section>
+
+
+        <!-- Mejores Jugadores -->
+        <div class="Mejores-Jugadores">
+            <h2 class="Titulo-Jugadores">Mejores Jugadores</h2>
+            <div class="Lista-Jugadores">
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+                <div class="Jugador">
+                    <img src="/ALDACC2/ALDACC/IMG/Avatar-prueba.png" alt="">
+                    <h4 class="Nombre-Jugador">Nombre Jugador</h4>
+                    <p class="Puntuacion">Mejor Resultado</p>
+                    <div class="Progeso"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+   <!-- Redes Sociales -->
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="/ALDACC2/ALDACC/IMG/LOGO_V3NUS-removebg-preview.png" alt="Logo venus">
+                </a>
+            </figure>
+        </div>
+        <div class="box footer-2">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ipsa doloremque quo eligendi dignissimos corporis voluptas rerum consectetur perspiciatis accusantium inventore, porro atque suscipit. Vitae voluptatem veniam est sint similique.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ipsa doloremque quo eligendi dignissimos corporis voluptas rerum consectetur perspiciatis accusantium inventore, porro atque suscipit. Vitae voluptatem veniam est sint similique.</p>
+        </div>
+        <div class="box footer-3">
+            <h2>Redes Sociales</h2>
+            <div class="red-social">
+                <div class="redes-iconos">
+                    <a href="" class="Facebook"><i class="fa-brands fa-facebook-f"></i>
+                    <a href="" class="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="" class="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2024 <b>V3NUS</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+
+
+   <!-- Archivo Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>

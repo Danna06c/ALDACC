@@ -1,0 +1,94 @@
+[
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Cuál es la letra que sigue después de la 'A' en el abecedario?",
+        "respuesta": "B",
+        "incorrecta1": "C",
+        "incorrecta2": "D",
+        "incorrecta3": "E",
+        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Area de español",
+        "pregunta": "¿Cuál de estos es un color primario?",
+        "respuesta": "Verde",
+        "incorrecta1": "Naranja",
+        "incorrecta2": "Morado",
+        "incorrecta3": "Negro",
+        "imagen": "https://i.ibb.co/SDjX7PM/jardin-de-las-delicias.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Qué palabra completa la frase: 'El ___ está en el cielo'?",
+        "respuesta": "Pajaro",
+        "incorrecta1": "Sol",
+        "incorrecta2": "Avion",
+        "incorrecta3": "Perro",
+        "imagen": "https://i.ibb.co/SDjX7PM/jardin-de-las-delicias.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Cuál de estas palabras tiene más sílabas?",
+        "respuesta": "Elefante",
+        "incorrecta1": "Perro",
+        "incorrecta2": "Casa",
+        "incorrecta3": "Calle",
+        "imagen": "https://i.ibb.co/zfM2Vyd/paul-auster.jpg"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Qué significa la palabra 'alegre'?",
+        "respuesta": "Contento",
+        "incorrecta1": "Enfadado",
+        "incorrecta2": "Triste",
+        "incorrecta3": "Enojo",
+        "imagen": "https://i.ibb.co/WHd1NnL/el-viejo-y-el-mar.jpg"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Cuál es el verbo en la oración: 'María corre rápido en el parque'?",
+        "respuesta": "Corre",
+        "incorrecta1": "Maria",
+        "incorrecta2": "Rápido",
+        "incorrecta3": "El",
+        "imagen": "https://i.ibb.co/SPqsRyx/221b.jpg"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": " ¿Cuál es el antónimo de la palabra 'frío'?",
+        "respuesta": "Caliente",
+        "incorrecta1": "Rápido",
+        "incorrecta2": "Lejos",
+        "incorrecta3": "Tibio",
+        "imagen": "https://i.ibb.co/dgfv8zK/el-ojo.gif"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Cuál es el título del libro escrito por Dr. Seuss que habla sobre un gato que usa un sombrero?",
+        "respuesta": "El Gato en el Sombrero",
+        "incorrecta1": "El Gato con Botas",
+        "incorrecta2": " El Gato Garabato",
+        "incorrecta3": "El gato",
+        "imagen": "https://i.ibb.co/dLw3jng/Dada-min-e1533749290497.jpg"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Qué nombre recibe el grupo de palabras que expresan una idea completa?",
+        "respuesta": "Oración",
+        "incorrecta1": " Verbo",
+        "incorrecta2": "Sujeto",
+        "imagen": "https://i.ibb.co/vdTD5sF/el-tunel.jpg"
+    },
+    {
+        "categoria": "Area de Español",
+        "pregunta": "¿Qué tipo de palabra es 'cantando' en la siguiente oración: 'María está cantando una canción bonita'?",
+        "respuesta": "Verbo",
+        "incorrecta1": "Sustantivo",
+        "incorrecta2": "Adjetivo",
+        "incorrecta3": "adverbio",
+        "imagen": "https://i.ibb.co/gVQXD5q/mobi.jpg"
+    }
+]
